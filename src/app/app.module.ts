@@ -9,8 +9,6 @@ import { AgmCoreModule } from '@agm/core';
 import { MapsEditComponent } from './components/maps/maps-edit.component';
 import { ReactiveFormsModule } from "@angular/forms";
 
-import { APP_BASE_HREF } from '@angular/common';
-
 @NgModule({
   entryComponents: [
     MapsEditComponent
@@ -29,7 +27,7 @@ import { APP_BASE_HREF } from '@angular/common';
      apiKey: 'YOUR API KEY'
    })
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: '/my/app'}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
