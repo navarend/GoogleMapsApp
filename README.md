@@ -1,6 +1,6 @@
 # Application web GoogleMapsApp
 
-## In this part contains:
+## This part contains:
 1. Use Reactive Forms - FormBuilder.
 2. Create marker in map.
 3. Marker edition.
